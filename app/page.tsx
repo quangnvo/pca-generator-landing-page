@@ -14,7 +14,8 @@ export default function Home() {
             width={200}
             height={200}
             id="hiri-logo"
-            alt="hiri-logo" />
+            alt="hiri-logo"
+          />
         </a>
       </div>
 
@@ -43,6 +44,28 @@ export default function Home() {
           <Microscope />
           HIRI
         </Link>
+      </div>
+
+
+      <div className="p-2 border border-black rounded-sm shadow-xl">
+        <Image
+          src="/pca-generator-screenshot.png"
+          width={1200}
+          height={800}
+          id="hiri-logo"
+          alt="hiri-logo"
+          unoptimized
+          quality={100}
+        />
+      </div>
+
+      <div>
+        Video interactive
+
+      </div>
+
+      <div>
+        Feature
       </div>
     </main>
   );
