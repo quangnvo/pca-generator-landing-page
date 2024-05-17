@@ -3,11 +3,10 @@ import Image from "next/image"
 
 function HIRIBanner() {
     return (
-        <div className="bg-gradient w-full px-8 h-[300px] lg:h-newsletter text-center flex justify-center items-center">
-            <div className="">
-                <h2 className="text-3xl md:text-4xl font-semibold leading-relaxed">PCA Generator</h2>
-                <p className="mt-2 text-base">A project of</p>
-
+        <div className=" w-full px-8 h-[300px] lg:h-newsletter text-center flex justify-center items-center">
+            <div className="flex flex-col gap-5 md:gap-8 items-center justify-center">
+                <h2 className="text-2xl md:text-3xl font-bold">PCA Generator</h2>
+                <p className="text-base">A project of</p>
                 <Link
                     href="https://www.helmholtz-hiri.de/" target="_blank"
                 >

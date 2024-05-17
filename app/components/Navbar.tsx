@@ -1,36 +1,23 @@
-import { Menu } from "lucide-react"
+import Link from "next/link"
+import Image from "next/image"
 
 function Navbar() {
     return (
-        <div className="w-full 2xl:w-large px-6 lg:px-28 2xl:px-0 mx-auto flex justify-between items-center pt-6 lg:pt-10">
-            <div className="w-logo">
-                <a href="#">
-                    <img src="/logo.png" alt="logo fintech" />
-                </a>
-            </div>
-            <div className="list-none hidden xl:flex items-center">
-                <li className="px-6">
-                    <a className=" transition-all" href="#">Home</a>
-                </li>
-                <li className="px-6">
-                    <a className=" transition-all" href="#">Services</a>
-                </li>
-                <li className="px-6">
-                    <a className=" transition-all" href="#">Pricing</a>
-                </li>
-                <li className="px-6">
-                    <a className=" transition-all" href="#">Feature</a>
-                </li>
-                <li className="px-6">
-                    <a className=" transition-all" href="#">Contact</a>
-                </li>
-            </div>
-            <div className="hidden xl:block">
-                <button className="bg-btnDark text-white w-44 h-16 font-medium rounded-lg hover:shadow-xl transition duration-200">Get started</button>
-            </div>
-            <div className="block xl:hidden">
-                <button className='pt-1'><Menu className='w-8 text-white' /></button>
-            </div>
+        <div className="container py-6 md:py-10 flex justify-between items-center">
+            <span className="font-bold text-lg md:text-xl ">PCA Generator</span>
+            <Link
+                href="https://www.helmholtz-hiri.de/"
+                target="_blank"
+                className="md:block hidden"
+            >
+                <Image
+                    src="/HIRI-logo.svg"
+                    width={240}
+                    height={200}
+                    id="hiri-logo"
+                    alt="hiri-logo"
+                />
+            </Link>
         </div>
     )
 }

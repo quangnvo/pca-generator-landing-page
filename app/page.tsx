@@ -6,7 +6,7 @@ import { Github } from "lucide-react";
 import Navbar from "./components/Navbar";
 import Banner from "./components/Banner";
 import HIRIBanner from "./components/HIRIBanner";
-
+import Footer from "./components/Footer";
 
 
 export default function Home() {
@@ -114,8 +114,8 @@ export default function Home() {
     // IF FINISHED, THEN DELETE THIS
     //###############################*/
 
-    <div>
-      <header className='w-full h-[700px] md:h-[1100px] xl:h-header bg-gradient'>
+    <div className="bg-gradient">
+      <header className='w-full h-[700px] md:h-[1100px] xl:h-header'>
         <Navbar />
         <Banner />
       </header>
@@ -124,6 +124,10 @@ export default function Home() {
         <HIRIBanner />
       </article>
 
+
+      <footer>
+        <Footer />
+      </footer>
     </div>
   );
 }

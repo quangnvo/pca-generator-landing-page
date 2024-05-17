@@ -15,9 +15,6 @@ function Banner() {
                     <span>
                         Built using Python scikit-learn library 📦
                     </span>
-                    <span>
-                        This tool is designed to help you easily generate Principal Component Analysis (PCA) plots from your data ✨
-                    </span>
                 </p>
 
                 <div className=" mt-7 flex justify-center items-center">
