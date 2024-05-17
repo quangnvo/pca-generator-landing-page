@@ -1,6 +1,6 @@
-import { Github, Linkedin } from 'lucide-react';
+import Link from 'next/link';
+import { Github } from 'lucide-react';
 import { Button } from '@/components/ui/button';
-import Logo from './Logo';
 
 
 export default function Footer() {
@@ -15,33 +15,20 @@ export default function Footer() {
 							<div className="flex flex-col items-center md:items-start mb-6 md:mb-0">
 
 								{/* Logo */}
-								<Logo />
+								<span className="font-bold text-lg md:text-xl ">PCA Generator</span>
 							</div>
 
 							{/* Right side */}
 							<div className="flex mb-6 md:mb-0">
 
 								{/* Icon Github */}
-								<a href="https://github.com/quangnvo" target="_blank">
+								<Link href="https://github.com/quangnvo/pca-generator" target="_blank">
 									<Button variant="ghost" className="hover:bg-gray-200 dark:hover:bg-gray-700">
 										<Github />
 									</Button>
-								</a>
+								</Link>
 								{/* End of Icon Github */}
-
-								{/* Icon LinkedIn */}
-								<a href="https://www.linkedin.com/in/quangnguyen0528/" target="_blank">
-									<Button variant="ghost" className="hover:bg-gray-200 dark:hover:bg-gray-700">
-										<Linkedin />
-									</Button>
-								</a>
-								{/* End of Icon LinkedIn */}
 							</div>
-						</div>
-
-						<div className="text-center flex flex-col gap-2 justify-center items-center ">
-							<p>Build with 💓 by Quang</p>
-							<p>© 2024 Quang. All Rights Reserved.</p>
 						</div>
 					</div>
 				</div>
