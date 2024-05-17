@@ -53,7 +53,7 @@ export default function Navbar() {
 
 	return (
 		// NOTICE: "bg-light-50" and "bg-dark" is set in tailwind.config.js
-		<div className="sticky inset-0 z-50 h-max rounded-none max-w-full shadow-sm border-b bg-light-50 dark:bg-dark border-zinc-800">
+		<div className="max-w-full">
 
 			<nav className="container py-3 flex items-center justify-between">
 
