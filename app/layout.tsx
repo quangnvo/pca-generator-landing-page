@@ -4,7 +4,7 @@ import "./globals.css";
 
 
 // Import global components
-import Footer from "./components/global/Footer";
+import Footer from "./components/Footer";
 
 const inter = Inter({ subsets: ["latin"] });
 
