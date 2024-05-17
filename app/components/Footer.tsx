@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import { Github } from 'lucide-react';
 import { Button } from '@/components/ui/button';
-
+import Logo from './Logo';
 
 export default function Footer() {
 	return (
@@ -13,19 +13,18 @@ export default function Footer() {
 
 							{/* Left side */}
 							<div className="flex flex-col items-center md:items-start mb-6 md:mb-0">
-
-								PCA Generator
+								<Logo />
 							</div>
 
 							{/* Right side */}
 							<div className="flex mb-6 md:mb-0">
 
 								{/* Icon Github */}
-								<a href="https://github.com/quangnvo" target="_blank">
-									<Button variant="ghost" className="hover:bg-gray-200 dark:hover:bg-gray-700">
+								<Link href="https://github.com/quangnvo/pca-generator" target="_blank">
+									<Button variant="ghost" className='hover:bg-orange-100'>
 										<Github />
 									</Button>
-								</a>
+								</Link>
 								{/* End of Icon Github */}
 							</div>
 						</div>

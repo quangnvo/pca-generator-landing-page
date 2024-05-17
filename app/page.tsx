@@ -7,7 +7,7 @@ import Navbar from "./components/Navbar";
 import Banner from "./components/Banner";
 import HIRIBanner from "./components/HIRIBanner";
 import Footer from "./components/Footer";
-
+import Features from "./components/Features";
 
 export default function Home() {
   return (
@@ -121,6 +121,7 @@ export default function Home() {
       </header>
 
       <article>
+        <Features />
         <HIRIBanner />
       </article>
 

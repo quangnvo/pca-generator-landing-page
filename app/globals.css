@@ -9,7 +9,7 @@ html {
 
 /* This is used for make the color background of the whole page, so put this in the most outside div */
 .bg-gradient {
-  background-image: linear-gradient(150deg, #f7e9d4, #ebdded, #f3e2c7);
+  background-image: linear-gradient(150deg, #f7e9d4, #f0e6f1, #f3e2c7);
 }
 
 ::selection {
