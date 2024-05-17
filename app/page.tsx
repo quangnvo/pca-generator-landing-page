@@ -46,14 +46,6 @@ export default function Home() {
           Github
         </Link>
 
-        <Link
-          href="https://www.helmholtz-hiri.de/en/"
-          target="_blank"
-          className="flex items-center gap-2"
-        >
-          <Microscope />
-          HIRI
-        </Link>
       </div>
 
       {/* Check the "image-scroll-from-top-to-bottom" in the globals.css */}
