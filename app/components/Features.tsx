@@ -13,23 +13,20 @@ function Features() {
             id: 2,
             icon: <ScatterChart size="36px" />,
             title: 'PCA plot 2D and 3D',
-            description: 'PCA works by reducing the dimensionality of the data. In other words, it takes a dataset with many variables (such as gene expression levels for thousands of genes) and simplifies it into just a few “principal components” that capture the majority of the variation in the data.'
+            description: 'PCA works by reducing the dimensionality of the data. It takes a dataset with many variables and simplifies it into just a few “principal components” that capture the majority of the variation in the data.'
         },
         {
             id: 3,
             icon: <Table size="36px" />,
             title: 'Loading table',
-            description: 'To see which variables contribute how much to each principal component with loadings table.'
+            description: 'To see which variables contribute how much to each principal component with loading table.'
         }
     ]
 
     return (
-        <div className="xl:w-container mx-auto my-24 md:my-40">
-            <div className="title x-full md:w-7/12 mx-auto text-center">
-                <h2 className="text-3xl md:text-4xl font-semibold leading-relaxed">Features</h2>
-
-            </div>
-            <div className="card-list mt-16 text-center md:text-left flex flex-wrap justify-center gap-10">
+        <div className="flex flex-col gap-10">
+            <h2 className="text-3xl md:text-4xl font-semibold leading-relaxed text-center">Features</h2>
+            <div className="card-list text-center md:text-left flex flex-wrap justify-center gap-10">
                 {
                     data.map((content, i) => {
                         return (

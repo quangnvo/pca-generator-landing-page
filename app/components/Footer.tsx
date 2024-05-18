@@ -5,11 +5,11 @@ import Logo from './Logo';
 
 export default function Footer() {
 	return (
-		<div className='border-t border-zinc-800 mt-40'>
+		<div className='border-t border-t-gray-400'>
 			<div className="py-1 max-w-full">
-				<div className="container py-7">
+				<div className="py-7">
 					<div>
-						<div className="flex flex-col justify-center items-center md:justify-between md:flex-row">
+						<div className="flex items-center justify-between">
 
 							{/* Left side */}
 							<div className="flex flex-col items-center md:items-start mb-6 md:mb-0">
@@ -29,7 +29,7 @@ export default function Footer() {
 							</div>
 						</div>
 
-						<div className="text-center flex flex-col gap-2 justify-center items-center ">
+						<div className="text-center flex flex-col gap-2 justify-center items-center text-sm">
 							<p>© 2024. All Rights Reserved.</p>
 						</div>
 					</div>

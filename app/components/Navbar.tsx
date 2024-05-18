@@ -4,7 +4,7 @@ import Logo from "./Logo"
 
 function Navbar() {
     return (
-        <div className="container py-6 md:py-10 flex justify-between items-center">
+        <div className="py-6 md:py-10 flex justify-between items-center">
             <Logo />
             <Link
                 href="https://www.helmholtz-hiri.de/"
