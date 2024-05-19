@@ -2,18 +2,19 @@ import Image from 'next/image';
 
 const VideoBanner = () => {
     return (
-        <div className="flex flex-col gap-10">
+        <div className="flex flex-col gap-10 justify-center items-center">
             <h2 className="text-3xl md:text-4xl font-semibold leading-relaxed text-center">Demo</h2>
-            <div className="h-[55vh] md:h-[75vh] w-full md:w-9/12 mx-auto overflow-hidden border border-gray-300 rounded-md ">
-                <Image
-                    width="800"
-                    height="450"
-                    src="/images/123123.gif"
-                    alt="pca-generator-screenshot"
-                    unoptimized={true}
-                    quality={100}
-                />
-            </div>
+
+            <Image
+                width="1000"
+                height="700"
+                src="/images/bbbbb.gif"
+                alt="pca-generator-screenshot"
+                unoptimized={true}
+                quality={100}
+                className='border border-gray-300 rounded-md shadow-xl '
+            />
+
         </div>
     )
 }
