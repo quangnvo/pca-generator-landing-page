@@ -11,6 +11,13 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "PCA Generator",
   description: "This tool is designed to help you generate a Principal Component Analysis (PCA) plot from your data.",
+
+  // This is the favicon of the website
+  // The /favicon.ico is the public path of the favicon
+  // So the favicon is located at "public/favicon.ico"
+  icons: {
+    icon: '/favicon.ico',
+  },
 };
 
 export default function RootLayout({
