@@ -16,7 +16,6 @@ export default function Home() {
         <ScreenshotBanner />
         <VideoBanner />
         <Features />
-        <BuiltWith />
         <HIRIBanner />
         <Footer />
       </div>
