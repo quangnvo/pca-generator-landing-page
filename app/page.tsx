@@ -4,6 +4,7 @@ import ScreenshotBanner from "./components/ScreenshotBanner";
 import VideoBanner from "./components/VideoBanner";
 import Features from "./components/Features";
 import HIRIBanner from "./components/HIRIBanner";
+import BuiltWith from "./components/BuiltWith";
 import Footer from "./components/Footer";
 
 export default function Home() {
@@ -15,6 +16,7 @@ export default function Home() {
         <ScreenshotBanner />
         <VideoBanner />
         <Features />
+        <BuiltWith />
         <HIRIBanner />
         <Footer />
       </div>
